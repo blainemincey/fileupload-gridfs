@@ -1,0 +1,20 @@
+{
+  "name": "fileupload-gridfs",
+  "version": "1.0.0",
+  "description": "Example application for grid fs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Blaine Mincey",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^4.10.2",
+    "morgan": "^1.8.2",
+    "multer": "^1.3.0",
+    "multer-gridfs-storage": "^1.2.0"
+  }
+}

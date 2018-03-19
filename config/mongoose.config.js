@@ -10,7 +10,10 @@ module.exports = (config) => {
 
     var mongoURI = config.dev.db;
 
-    mongoose.connect(mongoURI);
+    mongoose.connect(mongoURI, {
+      useMongoClient: true,
+      /* other options */
+    });
 
     /** Connection events */
     mongoose.connection.on('connected', function() {
